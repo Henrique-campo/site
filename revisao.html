@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Aqui iremos colocar o que passou batido-->
+    <style>
+        a{
+            text-decoration: none;
+        }
+        a:visited{
+            color: red;
+        }
+        a:active{
+            color: yellow;
+        }
+        a::after{
+            content: "link";
+            color: blue;
+        }
+        a::before{
+            content:"before ";
+            color: blue;
+        }
+        </style>
+</head>
+<body>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=vMlrcOVr7po&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=22">teste 1</a></li>
+        <li><a href="https://www.youtube.com/watch?v=vMlrcOVr7po&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=22">teste 2</a></li>
+        <li><a href="https://www.youtube.com/watch?v=vMlrcOVr7po&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=22">teste 3</a></li>
+    </ul>
+</body>
+</html>

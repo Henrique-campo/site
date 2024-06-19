@@ -1,0 +1,25 @@
+/*Utilize o root para colocar suas variaveis que sevem para o documento interio*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@font-face {
+    font-family: "faroeste";
+    src: url("RioGrande.ttf") format(truetype);
+}
+  
+    :root{
+    /*para criar uma variavel voce deve addcionar dois traços no comelo dela*/
+    --var1: #fff;
+    --var2: #dbc4c4;
+    
+    --font-padrao: Arial, Verdana, Helvetica, Sans-Serif;
+    --font-google: "Oswald", sans-serif;
+    --font-baixada: "faroeste"
+}
+h1{
+    font-family: var(--font-google);
+}
+h2{
+    font-family: var(--font-padrao);
+}
+h3{
+    font-family:var(--font-baixada);
+}
